@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="PT-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Grimório de magia do HTML </title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+        ::-webkit-scrollbar {
+            width: 0px;
+        }
+        body {
+            background: #3d3d3b;
+            margin: 8px 16px;
+        }
+        .box {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            margin: 32px 0;
+        }
+        .box-code {
+            background: #363633;
+            color: #f0f0f0;
+            font-family: 'Roboto Mono', monospace;
+            padding: 32px;
+        }
+        .box-site {
+            background: white;
+            padding: 8px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="box">
+        <div class="box-code">
+            &lt;!DOCTYPE html&gt; <br>
+            &lt;html&gt; <br>
+            <ul>&lt;head&gt; <br>
+            <ul>&lt;title&gt; my page &lt;/title&gt;</ul>
+            &lt;/head&gt; <br>
+            &lt;body&gt; <br>
+            <ul> olá mundo </ul>
+            &lt;/body&gt; <br></ul>
+            &lt;/html&gt; <br>
+        </div>
+        <div class="box-site"> olá mundo </div>
+    </div>
+
+    <div class="box">
+        <div class="box-code">
+            &lt;h1&gt; heading 1 &lt;/h1&gt; <br>
+            &lt;hr&gt; <br>
+            &lt;h2&gt; heading 2 &lt;/h2&gt; <br>
+            &lt;h3&gt; heading 3 &lt;/h3&gt; <br>
+            &lt;h4&gt; heading 4 &lt;/h4&gt; <br>
+            &lt;h5&gt; heading 5 &lt;/h5&gt; <br>
+            &lt;h6&gt; heading 6 &lt;/h6&gt;
+        </div>
+        <div class="box-site">
+            <h1> heading 1 </h1>
+            <hr>
+            <h2> heading 2 </h2>
+            <h3> heading 3 </h3>
+            <h4> heading 4 </h4>
+            <h5> heading 5 </h5>
+            <h6> heading 6 </h6>
+        </div>
+    </div>
+
+    <div class="box">
+        <div class="box-code">
+            &lt;p&gt; Lorem ipsum dolor sit amet consectetur. &lt;/p&gt;
+        </div>
+        <div class="box-site">
+            <p> Lorem ipsum dolor sit amet consectetur. </p>
+        </div>
+    </div>
+
+    <div class="box">
+        <div class="box-code">
+            &lt;b&gt; 1 Lorem ipsum dolor sit amet consectetur. &lt;/b&gt; <br>
+            &lt;i&gt; 2 Lorem ipsum dolor sit amet consectetur. &lt;/i&gt; <br>
+            &lt;u&gt; 3 Lorem ipsum dolor sit amet consectetur. &lt;/u&gt; <br>
+            &lt;s&gt; 4 Lorem ipsum dolor sit amet consectetur. &lt;/s&gt;
+        </div>
+        <div class="box-site">
+            <b> 1 Lorem ipsum dolor sit amet consectetur. </b> <br><br>
+            <i> 2 Lorem ipsum dolor sit amet consectetur. </i> <br><br>
+            <u> 3 Lorem ipsum dolor sit amet consectetur. </u> <br><br>
+            <s> 4 Lorem ipsum dolor sit amet consectetur. </s>
+        </div>
+    </div>
+
+    <div class="box">
+        <div class="box-code">
+            &lt;sub&gt; 2 &lt;/sub&gt; He <br>
+            Ba &lt;sup&gt; 2+ &lt;/sup&gt;
+        </div>
+        <div class="box-site">
+            <p> <sub>2</sub>He </p>
+            <p> Ba<sup>2+</sup> </p>
+        </div>
+    </div>
+
+    <div class="box">
+        <div class="box-code">
+            &lt;a href='https://www.google.com'&gt; google &lt;/a&gt;
+        </div>
+        <div class="box-site">
+            <a href="https://www.google.com"> google </a>
+        </div>
+    </div>
+
+    <div class="box">
+        <div class="box-code">
+            &lt;img src='https://upload.wikime....' /&gt;
+        </div>
+        <div class="box-site">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/As08-16-2593_crop.png/220px-As08-16-2593_crop.png">
+        </div>
+    </div>
+
+    <div class="box">
+        <div class="box-code">
+            &lt;ul&gt; <br>
+            <ul>
+                &lt;li&gt; Sapo &lt;/li&gt; <br>
+                &lt;li&gt; Gato &lt;/li&gt; <br>
+                &lt;li&gt; Rato &lt;/li&gt; 
+            </ul>
+            &lt;/ul&gt;
+        </div>
+        <div class="box-site">
+            <ul>
+                <li> Sapo </li>
+                <li> Gato </li>
+                <li> Rato </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="box">
+        <div class="box-code">
+            &lt;ol&gt; <br>
+            <ul>
+                &lt;li&gt; Primeiro item &lt;/li&gt; <br>
+                &lt;li&gt; Segundo item &lt;/li&gt; <br>
+                &lt;li&gt; Terceiro item &lt;/li&gt; 
+            </ul>
+            &lt;/ol&gt;
+        </div>
+        <div class="box-site">
+            <ol>
+                <li> Primeiro item </li>
+                <li> Segundo item </li>
+                <li> Terceiro item </li>
+            </ol>
+        </div>
+    </div>
+
+    <div class="box">
+        <div class="box-code">
+            &lt;table&gt; <br>
+            <ul>
+                &lt;tr&gt;
+                <ul>
+                    &lt;th&gt; Firstname &lt;/th&gt; <br>
+                    &lt;th&gt; Lastname &lt;/th&gt; <br>
+                    &lt;th&gt; Age &lt;/th&gt; <br>
+                </ul>
+                &lt;/tr&gt;
+                <br>
+                &lt;tr&gt;
+                <ul>
+                    &lt;td&gt; Jill &lt;/td&gt; <br>
+                    &lt;td&gt; Smith &lt;/td&gt; <br>
+                    &lt;td&gt; 50 &lt;/td&gt; <br>
+                </ul>
+                &lt;/tr&gt;
+                <br>
+                &lt;tr&gt;
+                <ul>
+                    &lt;td&gt; Eve &lt;/td&gt; <br>
+                    &lt;td&gt; Jackson &lt;/td&gt; <br>
+                    &lt;td&gt; 94 &lt;/td&gt; <br>
+                </ul>
+                &lt;/tr&gt;
+            </ul>
+            &lt;/table&gt;
+        </div>
+        <div class="box-site">
+            <table border>
+                <tr>
+                    <th>Firstname</th>
+                    <th>Lastname</th>
+                    <th>Age</th>
+                </tr>
+                <tr>
+                    <td> Jill </td>
+                    <td> Smith </td>
+                    <td> 50 </td>
+                </tr>
+                <tr>
+                    <td> Eve </td>
+                    <td> Jackson </td>
+                    <td> 94 </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <div class="box">
+        <div class="box-code">
+            &lt;form action='' method='POST'&gt; <br>
+            <ul>
+                &lt;input type='text' /&gt; <br>
+                &lt;input type='email' /&gt; <br>
+                &lt;input type='password' /&gt; <br>
+                &lt;input type='submit' /&gt;
+            </ul>
+            &lt;/form&gt;
+        </div>
+        <div class="box-site">
+            <form>
+                <input type="text" placeholder="name...">
+                <input type="email" placeholder="email...">
+                <input type="password" placeholder="****">
+                <input type="submit">
+            </form>
+        </div>
+    </div>
+
+</body>
+</html>
