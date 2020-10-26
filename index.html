@@ -36,6 +36,12 @@
             padding: 64px;
             text-align: center;
         }
+        h2.title {
+            color: #dbd293;
+            font-family: 'Cinzel', serif;
+            font-size: 28pt;
+            padding: 32px;
+        }
         i.def {
             color: #615e4b;
             font-family: 'Grenze Gotisch', cursive;
@@ -81,6 +87,8 @@
         </div>
         <div class="box-site"> olá mundo </div>
     </div>
+
+    <h2 class="title"> HTML </h2>
 
     <div class="box">
         <div class="box-code">
@@ -265,6 +273,167 @@
             </form>
         </div>
     </div>
+
+    <div class="box">
+        <div class="box-code">
+            &lt;select&gt; <br>
+            <ul>
+                &lt;option&gt; Olá Mundo! &lt;/option&gt; <br>
+                &lt;option&gt; Bom dia Mundo! &lt;/option&gt; <br> 
+                &lt;option&gt; Boa Tarde Mundo! &lt;/option&gt; <br>
+                &lt;option&gt; Boa Noite Mundo! &lt;/option&gt; <br>
+                &lt;option&gt; Tchau Mundo! &lt;/option&gt; <br>
+            </ul>
+            &lt;/select&gt;
+        </div>
+        <div class="box-site">
+            <select>
+                <option> Olá Mundo! </option>
+                <option> Bom dia Mundo! </option>
+                <option> Boa Tarde Mundo! </option>
+                <option> Boa Noite Mundo! </option>
+                <option> Tchau Mundo! </option>
+            </select>
+        </div>
+    </div>
+
+    <h2 class="title"> CSS </h2>
+
+    <div class="box">
+        <div class="box-code">
+            body { background: rosybrown }
+        </div>
+        <div class="box-site" style="background: rosybrown;"></div>
+    </div>
+
+    <div class="box">
+        <div class="box-code">
+            body { color: red }
+        </div>
+        <div class="box-site" style="color: #d61313;">
+            Olá Mundo!
+        </div>
+    </div>
+
+    <div class="box">
+        <div class="box-code">
+            div { height: 64px; width: 128px; }
+        </div>
+        <div class="box-site">
+            <div style="background: #ccc; height: 128px; width: 256px;"></div>
+        </div>
+    </div>
+
+    <div class="box">
+        <div class="box-code">
+            p { font-family: 'Arial'  }
+        </div>
+        <div class="box-site" style="font-family: 'Arial', sans-serif;">
+            Olá Mundo!
+        </div>
+    </div>
+
+    <div class="box">
+        <div class="box-code">
+            p { font-size: 32pt  }
+        </div>
+        <div class="box-site" style="font-size: 32pt;">
+            Olá Mundo!
+        </div>
+    </div>
+
+    <div class="box">
+        <div class="box-code">
+            p { text-align: center }
+        </div>
+        <div class="box-site" style="text-align: center;">
+            Olá Mundo!
+        </div>
+    </div>
+
+    <div class="box">
+        <div class="box-code">
+            div { padding: 64px  }
+        </div>
+        <div class="box-site" style="background: rosybrown; padding: 64px;">
+            Olá Mundo!
+        </div>
+    </div>
+
+    <div class="box">
+        <div class="box-code">
+            div { margin: 64px  }
+        </div>
+        <div class="box-site">
+            <div style="background: rosybrown; margin: 64px;">
+                Olá Mundo!
+            </div>
+        </div>
+    </div>
+
+    <div class="box">
+        <div class="box-code">
+            div { border: 4px solid black }
+        </div>
+        <div class="box-site">
+            <div style="border: 4px solid red;">
+                4px solid red
+            </div>
+            <div style="border: 8px dashed green;">
+                8px dashed green
+            </div>
+            <div style="border: 12px dotted blue;">
+                12px dotted blue
+            </div>
+        </div>
+    </div>
+
+    <div class="box">
+        <div class="box-code">
+            img { border-radius: 50% }
+        </div>
+        <div class="box-site">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/As08-16-2593_crop.png/220px-As08-16-2593_crop.png" style="border-radius: 50%;">
+        </div>
+    </div>
+
+    <div class="box">
+        <div class="box-code">
+            div { <br>
+            <ul>
+                display: grid; <br>
+                grid-template-columns: 1fr 1fr; <br>
+            </ul>
+            }
+        </div>
+        <div class="box-site">
+            <div style="display: grid; grid-template-columns: 1fr 1fr;">
+                <div style="background: burlywood; height: 128px;"> A </div>
+                <div style="background: cadetblue; height: 128px;"> B </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="box">
+        <div class="box-code">
+            div { <br>
+            <ul>
+                display: grid; <br>
+                grid-template-columns: 10% 20% 30% 50%; <br>
+            </ul>
+            }
+        </div>
+        <div class="box-site">
+            <div style="display: grid; grid-template-columns: 10% 20% 30% 50%;">
+                <div style="background: #f4abc4; height: 128px;"> 10% </div>
+                <div style="background: #595b83; color: white; height: 128px;"> 20% </div>
+                <div style="background: #333456; color: white; height: 128px;"> 30% </div>
+                <div style="background: #060930; color: white; height: 128px;"> 50% </div>
+            </div>
+        </div>
+    </div>
+
+    <h2 class="title"> Bootstrap </h2>
 
 </body>
 </html>
